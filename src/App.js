@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Count from './Components/count';
+import KeyPad from './Components/keyPad';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Test
 function App() {
   return (
     <div className="App">
-     <Count/>
+     <KeyPad/>
     </div>
   );
 }

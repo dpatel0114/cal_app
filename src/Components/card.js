@@ -7,7 +7,7 @@ class Card extends Component {
      }
     render() { 
         return ( 
-            <div class="card col-sm-4 " style={{height: "50px", padding:"16px"}} > 
+            <div class="card col-sm-3 " style={{height: "50px", padding:"16px"}} > 
                    {this.props.element}
                     {/* <li class="list-group-item"> 1 </li>
                     <li class="list-group-item"> 2 </li>
